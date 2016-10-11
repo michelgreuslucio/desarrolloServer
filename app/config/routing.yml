@@ -1,0 +1,7 @@
+landing:
+    resource: "@landingBundle/Resources/config/routing.yml"
+    prefix:   /index
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
